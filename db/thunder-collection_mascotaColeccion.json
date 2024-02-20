@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mascotaColeccion",
+    "dateExported": "2024-02-20T19:57:43.742Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cd0a1e02-3a91-4c76-af22-f1e0b4c814b9",
+            "colId": "68216dd7-1cea-446c-8584-0ba1ed6e481a",
+            "containerId": "",
+            "name": "post mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-20T19:39:36.042Z",
+            "modified": "2024-02-20T19:52:03.245Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"especie\": \"Perro\",\n  \"raza\": \"Boxer\",\n  \"sexo\": \"Macho\",\n  \"edad\": \"7 años\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d74ce1ac-b0fc-471d-8f19-74d1d9166696",
+            "colId": "68216dd7-1cea-446c-8584-0ba1ed6e481a",
+            "containerId": "",
+            "name": "get mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-20T19:41:31.807Z",
+            "modified": "2024-02-20T19:42:18.163Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cbf3c786-4b95-4abc-9700-39dd52d276b5",
+            "colId": "68216dd7-1cea-446c-8584-0ba1ed6e481a",
+            "containerId": "",
+            "name": "get MascotaById",
+            "url": "http://localhost:3000/api/mascotas/65d502e3d5e02fe551675bba",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-20T19:44:44.243Z",
+            "modified": "2024-02-20T19:52:16.710Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fa6c9bf3-d2b4-4614-9492-041117cb6597",
+            "colId": "68216dd7-1cea-446c-8584-0ba1ed6e481a",
+            "containerId": "",
+            "name": "put Mascota",
+            "url": "http://localhost:3000/api/mascotas/65d502e3d5e02fe551675bba",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-20T19:48:30.469Z",
+            "modified": "2024-02-20T19:54:34.999Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"especie\": \"Perro\",\n  \"raza\": \"Rottweiler\",\n  \"sexo\": \"Macho\",\n  \"edad\": \"10 años\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bcf84e3d-9c17-454a-abdc-cfbc00057e26",
+            "colId": "68216dd7-1cea-446c-8584-0ba1ed6e481a",
+            "containerId": "",
+            "name": "delete Mascota",
+            "url": "http://localhost:3000/api/mascotas/65d502e3d5e02fe551675bba",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-20T19:49:01.960Z",
+            "modified": "2024-02-20T19:55:52.121Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
